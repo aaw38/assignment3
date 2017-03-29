@@ -15,7 +15,7 @@ header {
 }
 
 main {
-	background: url('./space.png');
+	background: url('space.png');
 	min-height: 600px;
 	background-size: cover;
 	padding: 30px;
