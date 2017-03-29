@@ -1,1 +1,43 @@
-/*styles for assignment 3*/
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+* {
+	margin: 0px;
+	padding: 0px;
+	font-family: 'Lato', sans-serif;
+	color: white;
+}
+
+header {
+	width: 100%;
+	padding: 30px;
+	background-color: black;
+	text-align: center;
+}
+
+main {
+	background: url('./space.png');
+	min-height: 600px;
+	background-size: cover;
+	padding: 30px;
+}
+
+main h1 {
+	margin-bottom: 10px;
+	text-align: center;
+}
+
+main p {
+	padding: 10px;
+	font-size: 14pt;
+	font-weight: bold;
+}
+
+footer {
+	width: 100%;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-left: 30px;
+	background-color: black;
+}
+
+
